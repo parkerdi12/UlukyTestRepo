@@ -12,16 +12,15 @@
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone <url-репозитория>
-   cd payment-validation-tests
+   git clone https://github.com/parkerdi12/UlukyTestRepo.git
 2. Установите зависимости:
     npm install
 3. Установите Playwright браузеры:
     npx playwright install\
 4. Запуск тестов
     Запуск всех тестов:
-    npm test
+    npm test; 
     Запуск тестов в режиме с интерфейсом:
-    npm run test:ui
+    npm run test:ui; 
     Просмотр отчета о тестировании:
     npm run test:report
