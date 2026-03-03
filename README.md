@@ -1,2 +1,27 @@
-# UlukyTestRepo
-The project contains managed tests for verifying the functionality of the payment form: 1. Checking the minimum payment amount 2. Calculating the winning amount using the commission and exchange rate.
+# Автотесты для валидации формы платежа
+
+## Описание
+Проект содержит автоматизированные тесты для проверки функциональности формы платежа:
+1. Валидация минимальной суммы платежа
+2. Расчет финальной суммы с отображением комиссии и курса
+
+## Требования
+- Node.js v16+
+- npm или yarn
+
+## Установка
+1. Клонируйте репозиторий:
+   ```bash
+   git clone <url-репозитория>
+   cd payment-validation-tests
+2. Установите зависимости:
+    npm install
+3. Установите Playwright браузеры:
+    npx playwright install\
+4. Запуск тестов
+    Запуск всех тестов:
+    npm test
+    Запуск тестов в режиме с интерфейсом:
+    npm run test:ui
+    Просмотр отчета о тестировании:
+    npm run test:report
